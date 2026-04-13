@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: black;
+  color: gold;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: blue;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(to right, black, #333);
+  color: blue;
+  padding: 50px;
+}
+
+button {
+  padding: 10px 15px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.rate {
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: black;
+  color: blue;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
